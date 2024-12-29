@@ -1,0 +1,14 @@
+.carDetailContainor {
+    margin-top: 70px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}

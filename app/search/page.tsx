@@ -10,7 +10,6 @@ import {setDefaultMake, setDefaultModel} from '../types/interfaces';
 import {useFactorsState} from '../components/UseFactorsState';
 import Head from 'next/head';
 
-// const url_prod = "https://demo.helloai.ink/";
 const url_dev = "http://localhost:8080/";
 
 export default function Home() {
@@ -90,7 +89,7 @@ export default function Home() {
                     asc: asc
                 } as { [key: string]: string };
                 const queryString = Object.keys(params).map(key => key + '=' + params[key]).join('&');
-                const response = await fetch(url_dev + `cars?${queryString}`);
+                const response = await fetch(url_dev + `/api/cars?${queryString}`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch car data');
                 }

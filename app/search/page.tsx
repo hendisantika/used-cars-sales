@@ -89,7 +89,7 @@ export default function Home() {
                     asc: asc
                 } as { [key: string]: string };
                 const queryString = Object.keys(params).map(key => key + '=' + params[key]).join('&');
-                const response = await fetch(url_dev + `/api/cars?${queryString}`);
+                const response = await fetch(url_dev + `api/cars?${queryString}`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch car data');
                 }

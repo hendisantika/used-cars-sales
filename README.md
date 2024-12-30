@@ -41,6 +41,12 @@ from the creators of Next.js.
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for
 more details.
 
-# used-cars-sales
+### used-cars-sales
 
 Backend --> https://github.com/hendisantika/spring-boot-nextjs-sample
+
+### Image Screenshot
+
+Home Page
+
+![Home Page](img/index.png "Home Page")
